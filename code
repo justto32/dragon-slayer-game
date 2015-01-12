@@ -1,0 +1,23 @@
+var slaying = true
+var youHit = Math.floor(Math.random() * 2)
+var damageThisRound = 4
+var totalDamage = 0
+
+while(slaying) {
+    console.log("You got him on the ropes Rocky!");
+    slaying = false;
+    if (slaying){
+        console.log("Dont let up");
+        totalDamage + damageThisRound;
+        if (totalDamage >= 4) {
+            console.log("You Killed him Rocky!");
+            slaying = false
+        }
+        else {
+            youHit = Math.floor(Math.random() * 2);
+        }
+    }
+    else {
+        console.log("GODDAMN IT ROCKY!");
+    }
+};
